@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC9687731E0A665A003EB804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687721E0A665A003EB804 /* main.m */; };
+		FC9687761E0A665A003EB804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687751E0A665A003EB804 /* AppDelegate.m */; };
+		FC9687791E0A665A003EB804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687781E0A665A003EB804 /* ViewController.m */; };
+		FC96877C1E0A665A003EB804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC96877A1E0A665A003EB804 /* Main.storyboard */; };
+		FC96877E1E0A665A003EB804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC96877D1E0A665A003EB804 /* Assets.xcassets */; };
+		FC9687811E0A665A003EB804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC96877F1E0A665A003EB804 /* LaunchScreen.storyboard */; };
+		FC96878C1E0A665A003EB804 /* AYCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96878B1E0A665A003EB804 /* AYCalendarTests.m */; };
+		FC9687971E0A665A003EB804 /* AYCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687961E0A665A003EB804 /* AYCalendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC9687881E0A665A003EB804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9687661E0A665A003EB804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC96876D1E0A665A003EB804;
+			remoteInfo = AYCalendar;
+		};
+		FC9687931E0A665A003EB804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9687661E0A665A003EB804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC96876D1E0A665A003EB804;
+			remoteInfo = AYCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC96876E1E0A665A003EB804 /* AYCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9687721E0A665A003EB804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC9687741E0A665A003EB804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC9687751E0A665A003EB804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC9687771E0A665A003EB804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC9687781E0A665A003EB804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC96877B1E0A665A003EB804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC96877D1E0A665A003EB804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9687801E0A665A003EB804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC9687821E0A665A003EB804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9687871E0A665A003EB804 /* AYCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC96878B1E0A665A003EB804 /* AYCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYCalendarTests.m; sourceTree = "<group>"; };
+		FC96878D1E0A665A003EB804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9687921E0A665A003EB804 /* AYCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9687961E0A665A003EB804 /* AYCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYCalendarUITests.m; sourceTree = "<group>"; };
+		FC9687981E0A665A003EB804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC96876B1E0A665A003EB804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9687841E0A665A003EB804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC96878F1E0A665A003EB804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC9687651E0A665A003EB804 = {
+			isa = PBXGroup;
+			children = (
+				FC9687701E0A665A003EB804 /* AYCalendar */,
+				FC96878A1E0A665A003EB804 /* AYCalendarTests */,
+				FC9687951E0A665A003EB804 /* AYCalendarUITests */,
+				FC96876F1E0A665A003EB804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC96876F1E0A665A003EB804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC96876E1E0A665A003EB804 /* AYCalendar.app */,
+				FC9687871E0A665A003EB804 /* AYCalendarTests.xctest */,
+				FC9687921E0A665A003EB804 /* AYCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9687701E0A665A003EB804 /* AYCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				FC9687741E0A665A003EB804 /* AppDelegate.h */,
+				FC9687751E0A665A003EB804 /* AppDelegate.m */,
+				FC9687771E0A665A003EB804 /* ViewController.h */,
+				FC9687781E0A665A003EB804 /* ViewController.m */,
+				FC96877A1E0A665A003EB804 /* Main.storyboard */,
+				FC96877D1E0A665A003EB804 /* Assets.xcassets */,
+				FC96877F1E0A665A003EB804 /* LaunchScreen.storyboard */,
+				FC9687821E0A665A003EB804 /* Info.plist */,
+				FC9687711E0A665A003EB804 /* Supporting Files */,
+			);
+			path = AYCalendar;
+			sourceTree = "<group>";
+		};
+		FC9687711E0A665A003EB804 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9687721E0A665A003EB804 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC96878A1E0A665A003EB804 /* AYCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC96878B1E0A665A003EB804 /* AYCalendarTests.m */,
+				FC96878D1E0A665A003EB804 /* Info.plist */,
+			);
+			path = AYCalendarTests;
+			sourceTree = "<group>";
+		};
+		FC9687951E0A665A003EB804 /* AYCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9687961E0A665A003EB804 /* AYCalendarUITests.m */,
+				FC9687981E0A665A003EB804 /* Info.plist */,
+			);
+			path = AYCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC96876D1E0A665A003EB804 /* AYCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC96879B1E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendar" */;
+			buildPhases = (
+				FC96876A1E0A665A003EB804 /* Sources */,
+				FC96876B1E0A665A003EB804 /* Frameworks */,
+				FC96876C1E0A665A003EB804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYCalendar;
+			productName = AYCalendar;
+			productReference = FC96876E1E0A665A003EB804 /* AYCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC9687861E0A665A003EB804 /* AYCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC96879E1E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendarTests" */;
+			buildPhases = (
+				FC9687831E0A665A003EB804 /* Sources */,
+				FC9687841E0A665A003EB804 /* Frameworks */,
+				FC9687851E0A665A003EB804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9687891E0A665A003EB804 /* PBXTargetDependency */,
+			);
+			name = AYCalendarTests;
+			productName = AYCalendarTests;
+			productReference = FC9687871E0A665A003EB804 /* AYCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC9687911E0A665A003EB804 /* AYCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9687A11E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendarUITests" */;
+			buildPhases = (
+				FC96878E1E0A665A003EB804 /* Sources */,
+				FC96878F1E0A665A003EB804 /* Frameworks */,
+				FC9687901E0A665A003EB804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9687941E0A665A003EB804 /* PBXTargetDependency */,
+			);
+			name = AYCalendarUITests;
+			productName = AYCalendarUITests;
+			productReference = FC9687921E0A665A003EB804 /* AYCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9687661E0A665A003EB804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = konglee;
+				TargetAttributes = {
+					FC96876D1E0A665A003EB804 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+					};
+					FC9687861E0A665A003EB804 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC96876D1E0A665A003EB804;
+					};
+					FC9687911E0A665A003EB804 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC96876D1E0A665A003EB804;
+					};
+				};
+			};
+			buildConfigurationList = FC9687691E0A665A003EB804 /* Build configuration list for PBXProject "AYCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9687651E0A665A003EB804;
+			productRefGroup = FC96876F1E0A665A003EB804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC96876D1E0A665A003EB804 /* AYCalendar */,
+				FC9687861E0A665A003EB804 /* AYCalendarTests */,
+				FC9687911E0A665A003EB804 /* AYCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC96876C1E0A665A003EB804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9687811E0A665A003EB804 /* LaunchScreen.storyboard in Resources */,
+				FC96877E1E0A665A003EB804 /* Assets.xcassets in Resources */,
+				FC96877C1E0A665A003EB804 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9687851E0A665A003EB804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9687901E0A665A003EB804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC96876A1E0A665A003EB804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9687791E0A665A003EB804 /* ViewController.m in Sources */,
+				FC9687761E0A665A003EB804 /* AppDelegate.m in Sources */,
+				FC9687731E0A665A003EB804 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9687831E0A665A003EB804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC96878C1E0A665A003EB804 /* AYCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC96878E1E0A665A003EB804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9687971E0A665A003EB804 /* AYCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC9687891E0A665A003EB804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC96876D1E0A665A003EB804 /* AYCalendar */;
+			targetProxy = FC9687881E0A665A003EB804 /* PBXContainerItemProxy */;
+		};
+		FC9687941E0A665A003EB804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC96876D1E0A665A003EB804 /* AYCalendar */;
+			targetProxy = FC9687931E0A665A003EB804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC96877A1E0A665A003EB804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC96877B1E0A665A003EB804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC96877F1E0A665A003EB804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9687801E0A665A003EB804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9687991E0A665A003EB804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC96879A1E0A665A003EB804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC96879C1E0A665A003EB804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = AYCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.AYCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC96879D1E0A665A003EB804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = AYCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.AYCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC96879F1E0A665A003EB804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = AYCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.AYCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYCalendar.app/AYCalendar";
+			};
+			name = Debug;
+		};
+		FC9687A01E0A665A003EB804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = AYCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.AYCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYCalendar.app/AYCalendar";
+			};
+			name = Release;
+		};
+		FC9687A21E0A665A003EB804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = AYCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.AYCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYCalendar;
+			};
+			name = Debug;
+		};
+		FC9687A31E0A665A003EB804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = AYCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.AYCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9687691E0A665A003EB804 /* Build configuration list for PBXProject "AYCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9687991E0A665A003EB804 /* Debug */,
+				FC96879A1E0A665A003EB804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC96879B1E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC96879C1E0A665A003EB804 /* Debug */,
+				FC96879D1E0A665A003EB804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC96879E1E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC96879F1E0A665A003EB804 /* Debug */,
+				FC9687A01E0A665A003EB804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC9687A11E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9687A21E0A665A003EB804 /* Debug */,
+				FC9687A31E0A665A003EB804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC9687661E0A665A003EB804 /* Project object */;
+}
