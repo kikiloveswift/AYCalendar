@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA471F8F9D562BFD648D48ED /* Pods_AYCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2077FAF86F1656311A39BA /* Pods_AYCalendar.framework */; };
 		FC9687731E0A665A003EB804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687721E0A665A003EB804 /* main.m */; };
 		FC9687761E0A665A003EB804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687751E0A665A003EB804 /* AppDelegate.m */; };
 		FC9687791E0A665A003EB804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687781E0A665A003EB804 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		FC9687811E0A665A003EB804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC96877F1E0A665A003EB804 /* LaunchScreen.storyboard */; };
 		FC96878C1E0A665A003EB804 /* AYCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96878B1E0A665A003EB804 /* AYCalendarTests.m */; };
 		FC9687971E0A665A003EB804 /* AYCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687961E0A665A003EB804 /* AYCalendarUITests.m */; };
+		FC9687A71E0A6F5C003EB804 /* AYCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9687A61E0A6F5C003EB804 /* AYCalendarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F7883483DAAC5510A2DE3F1 /* Pods-AYCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AYCalendar/Pods-AYCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		BE2077FAF86F1656311A39BA /* Pods_AYCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E5771720E0E311F717FDFD /* Pods-AYCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AYCalendar/Pods-AYCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		FC96876E1E0A665A003EB804 /* AYCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9687721E0A665A003EB804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC9687741E0A665A003EB804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		FC9687921E0A665A003EB804 /* AYCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9687961E0A665A003EB804 /* AYCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYCalendarUITests.m; sourceTree = "<group>"; };
 		FC9687981E0A665A003EB804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9687A41E0A689A003EB804 /* config.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.pch; sourceTree = "<group>"; };
+		FC9687A51E0A6F5C003EB804 /* AYCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYCalendarViewController.h; sourceTree = "<group>"; };
+		FC9687A61E0A6F5C003EB804 /* AYCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYCalendarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA471F8F9D562BFD648D48ED /* Pods_AYCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657EC437F59C0A8BE194BEAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE2077FAF86F1656311A39BA /* Pods_AYCalendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5CC76DDB865F1F62769BDC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F7883483DAAC5510A2DE3F1 /* Pods-AYCalendar.debug.xcconfig */,
+				D8E5771720E0E311F717FDFD /* Pods-AYCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC9687651E0A665A003EB804 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				FC96878A1E0A665A003EB804 /* AYCalendarTests */,
 				FC9687951E0A665A003EB804 /* AYCalendarUITests */,
 				FC96876F1E0A665A003EB804 /* Products */,
+				B5CC76DDB865F1F62769BDC3 /* Pods */,
+				657EC437F59C0A8BE194BEAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +130,12 @@
 			isa = PBXGroup;
 			children = (
 				FC9687741E0A665A003EB804 /* AppDelegate.h */,
+				FC9687A41E0A689A003EB804 /* config.pch */,
 				FC9687751E0A665A003EB804 /* AppDelegate.m */,
 				FC9687771E0A665A003EB804 /* ViewController.h */,
 				FC9687781E0A665A003EB804 /* ViewController.m */,
+				FC9687A51E0A6F5C003EB804 /* AYCalendarViewController.h */,
+				FC9687A61E0A6F5C003EB804 /* AYCalendarViewController.m */,
 				FC96877A1E0A665A003EB804 /* Main.storyboard */,
 				FC96877D1E0A665A003EB804 /* Assets.xcassets */,
 				FC96877F1E0A665A003EB804 /* LaunchScreen.storyboard */,
@@ -147,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC96879B1E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendar" */;
 			buildPhases = (
+				15F848B8F15B99CCB9A68CC5 /* [CP] Check Pods Manifest.lock */,
 				FC96876A1E0A665A003EB804 /* Sources */,
 				FC96876B1E0A665A003EB804 /* Frameworks */,
 				FC96876C1E0A665A003EB804 /* Resources */,
+				0054FF7DB47BCFB6B88FFF96 /* [CP] Embed Pods Frameworks */,
+				C1A26DD5147815AD996F8186 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,11 +305,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0054FF7DB47BCFB6B88FFF96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AYCalendar/Pods-AYCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15F848B8F15B99CCB9A68CC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A26DD5147815AD996F8186 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AYCalendar/Pods-AYCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC96876A1E0A665A003EB804 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9687A71E0A6F5C003EB804 /* AYCalendarViewController.m in Sources */,
 				FC9687791E0A665A003EB804 /* ViewController.m in Sources */,
 				FC9687761E0A665A003EB804 /* AppDelegate.m in Sources */,
 				FC9687731E0A665A003EB804 /* main.m in Sources */,
@@ -425,9 +508,11 @@
 		};
 		FC96879C1E0A665A003EB804 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7883483DAAC5510A2DE3F1 /* Pods-AYCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 628LRYYF8F;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AYCalendar/config.pch";
 				INFOPLIST_FILE = AYCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.AYCalendar;
@@ -437,9 +522,11 @@
 		};
 		FC96879D1E0A665A003EB804 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E5771720E0E311F717FDFD /* Pods-AYCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 628LRYYF8F;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AYCalendar/config.pch";
 				INFOPLIST_FILE = AYCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.AYCalendar;
@@ -516,6 +603,7 @@
 				FC96879D1E0A665A003EB804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC96879E1E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +612,7 @@
 				FC9687A01E0A665A003EB804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC9687A11E0A665A003EB804 /* Build configuration list for PBXNativeTarget "AYCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +621,7 @@
 				FC9687A31E0A665A003EB804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

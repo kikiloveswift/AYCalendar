@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AYCalendarViewController.h"
 
 @interface ViewController ()
 
@@ -14,16 +15,19 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)selectedBeginDate:(id)sender
+{
+    AYCalendarViewController *calVC = [[AYCalendarViewController alloc] init];
+    [self.navigationController pushViewController:calVC animated:YES];
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

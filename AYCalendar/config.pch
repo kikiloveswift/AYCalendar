@@ -1,0 +1,17 @@
+//
+//  config.pch
+//  AYCalendar
+//
+//  Created by kong on 16/12/21.
+//  Copyright © 2016年 konglee. All rights reserved.
+//
+
+#ifndef config_pch
+#define config_pch
+
+#define KWidth [UIScreen mainScreen].bounds.size.width
+
+#define KHeight [UIScreen mainScreen].bounds.size.height
+
+
+#endif
